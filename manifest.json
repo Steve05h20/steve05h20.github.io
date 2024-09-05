@@ -1,0 +1,58 @@
+{
+    "name": "Web design + code",
+    "short_name": "Web Design",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "description": "A web application for web design and coding.",
+    "lang": "en-US",
+    "dir": "ltr",
+    "theme_color": "#18181b",
+    "background_color": "#18181b",
+    "orientation": "any",
+    "protocol_handlers": [
+        {
+            "protocol": "mailto",
+            "url": "/email?to=%s"
+        },
+        {
+            "protocol": "web+myapp",
+            "url": "/myapp?data=%s"
+        }
+    ],
+    "icons": [
+        {
+            "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+            "sizes": "2880x1800",
+            "type": "image/png",
+            "description": "A screenshot of the home page"
+        }
+    ],
+    "related_applications": [
+        {
+            "platform": "windows",
+            "url": "https://example.com/app/windows"
+        }
+    ],
+    "prefer_related_applications": false,
+    "shortcuts": [
+        {
+            "name": "Open Dashboard",
+            "url": "/dashboard",
+            "description": "Go to the main dashboard"
+        }
+    ]
+}
