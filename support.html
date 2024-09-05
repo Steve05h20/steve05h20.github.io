@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>support📞🧑🏽‍💻</title>
+    <title>Assistance et Support | Nom du Site</title>
     <link rel="stylesheet" href="./style/css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 
 <body class="bg-zinc-900 text-xs text-blue-50">
-    <header class="bg-blue-700  hover:bg-blue-800   text-center">
+    <!-- Lien pour passer directement au contenu -->
+    <a href="#main-content" class="sr-only focus:not-sr-only">Passer au contenu principal</a>
+
+    <header class="bg-blue-700 hover:bg-blue-800 text-center">
         <p class="p-3 hover:font-bold transition-all">🎉🎉🎉 - Lorem ipsum dolor sit amet - 🎉🎉🎉</p>
 
         <nav class="bg-zinc-900 border-b border-zinc-600 flex items-center justify-center py-2 text-xs ">
             <a href="./index.html"
-                class=" mx-2 rounded-lg flex justify-center items-center hover:bg-zinc-800 p-2 transition-all">
+                class="mx-2 rounded-lg flex justify-center items-center hover:bg-zinc-800 p-2 transition-all"
+                aria-label="Retour à la page d'accueil">
                 <h1 class="text-lg font-bold text-blue-600">WEB | </h1>Design + Code
             </a>
-            <a class="hover:bg-zinc-700 p-2 rounded-lg bg-zinc-800 mx-2 transition-all" href="./tarif.html">Tarif</a>
-            <a class="hover:bg-zinc-700 p-2 rounded-lg bg-zinc-800 mx-2 transition-all"
-                href="./support.html">Support</a>
+            <a class="hover:bg-zinc-700 p-2 rounded-lg bg-zinc-800 mx-2 transition-all" href="./tarif.html"
+                aria-label="Voir les tarifs">Tarif</a>
+            <a class="hover:bg-zinc-700 p-2 rounded-lg bg-zinc-800 mx-2 transition-all" href="./support.html"
+                aria-label="Accéder à la page support">Support</a>
         </nav>
     </header>
-    <main>
-        <div id="section-1/3" class="container mx-auto px-4 py-8 sm:w-[1200px]">
+
+    <main id="main-content">
+        <section id="section-1" class="container mx-auto px-4 py-8 sm:w-[1200px]">
             <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12">
-                    <h1 class="text-xl font-semibold ">Assistance</h1>
+                    <h1 class="text-xl font-semibold">Assistance</h1>
                 </div>
 
                 <div class="col-span-12 mb-8">
@@ -38,33 +43,39 @@
                 <div class="col-span-12 mb-12">
                     <ul class="grid grid-cols-12 gap-x-4 gap-y-2 text-sm text-gray-400">
                         <li class="p-2 bg-zinc-800 hover:bg-zinc-700 my-a col-span-4 md:col-span-3 lg:col-span-2">
-                            <a href="#" class="hover:text-blue-500">Votre
-                                premier référentiel</a>
+                            <a href="#" class="hover:text-blue-500">Votre premier référentiel</a>
                         </li>
-                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2"><a href="#"
-                                class="hover:text-blue-500">Créer
-                                un bac à sable</a></li>
-                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700  col-span-4 md:col-span-3 lg:col-span-2"><a
-                                href="#" class="hover:text-blue-500">Espaces de travail</a></li>
-                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700  col-span-4 md:col-span-3 lg:col-span-2"><a
-                                href="#" class="hover:text-blue-500">Outils de développement</a></li>
-                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700  col-span-4 md:col-span-3 lg:col-span-2"><a
-                                href="#" class="hover:text-blue-500">Intégration Docker</a></li>
-                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700  col-span-4 md:col-span-3 lg:col-span-2"><a
-                                href="#" class="hover:text-blue-500">Variables d'environnement</a></li>
-                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700  col-span-4 md:col-span-3 lg:col-span-2"><a
-                                href="#" class="hover:text-blue-500">Intégration de VS Code</a></li>
-                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700  col-span-4 md:col-span-3 lg:col-span-2"><a
-                                href="#" class="hover:text-blue-500">Application GitHub</a></li>
-                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700  col-span-4 md:col-span-3 lg:col-span-2"><a
-                                href="#" class="hover:text-blue-500">Équipe et accès</a></li>
-                        <li class="p-2 bg-zinc-800  hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2"><a
-                                href="#" class="hover:text-blue-500">Plans
-                                et facturation</a></li>
+                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2">
+                            <a href="#" class="hover:text-blue-500">Créer un bac à sable</a>
+                        </li>
+                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2">
+                            <a href="#" class="hover:text-blue-500">Espaces de travail</a>
+                        </li>
+                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2">
+                            <a href="#" class="hover:text-blue-500">Outils de développement</a>
+                        </li>
+                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2">
+                            <a href="#" class="hover:text-blue-500">Intégration Docker</a>
+                        </li>
+                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2">
+                            <a href="#" class="hover:text-blue-500">Variables d'environnement</a>
+                        </li>
+                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2">
+                            <a href="#" class="hover:text-blue-500">Intégration de VS Code</a>
+                        </li>
+                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2">
+                            <a href="#" class="hover:text-blue-500">Application GitHub</a>
+                        </li>
+                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2">
+                            <a href="#" class="hover:text-blue-500">Équipe et accès</a>
+                        </li>
+                        <li class="p-2 bg-zinc-800 hover:bg-zinc-700 col-span-4 md:col-span-3 lg:col-span-2">
+                            <a href="#" class="hover:text-blue-500">Plans et facturation</a>
+                        </li>
                     </ul>
                 </div>
 
-                <div class="col-span-12 md:col-span-6 lg:col-span-4 ">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
                     <div class="bg-zinc-800 p-6 rounded-lg h-full flex flex-col">
                         <div class="text-3xl mb-4 font-bold">❔</div>
                         <h3 class="text-xl font-bold mb-2">FAQ</h3>
@@ -91,11 +102,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-
-
-        <div id="section-2/3" class="container mx-auto px-4 py-8">
+        <section id="section-2" class="container mx-auto px-4 py-8">
             <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-8 lg:col-start-3">
                     <h1 class="text-5xl font-bold mb-4 text-center">Contactez notre<br>équipe de support.</h1>
@@ -107,14 +116,35 @@
                             <div class="col-span-12 md:col-span-6">
                                 <label for="name" class="block text-sm font-medium mb-1">Votre nom</label>
                                 <input type="text" id="name" name="name" placeholder="ex. Marie Curie"
+                                    aria-describedby="nameError"
                                     class="w-full bg-zinc-800 rounded px-3 py-2 text-white placeholder-gray-400">
-                                <p id="nameError" class="error-message"></p>
+                                <p id="nameError" class="error-message" aria-live="polite"></p>
                             </div>
                             <div class="col-span-12 md:col-span-6">
                                 <label for="email" class="block text-sm font-medium mb-1">Votre email</label>
                                 <input type="email" id="email" name="email" placeholder="ex. marie.curie@gmail.com"
+                                    aria-describedby="emailError"
                                     class="w-full bg-zinc-800 rounded px-3 py-2 text-white placeholder-gray-400">
-                                <p id="emailError" class="error-message"></p>
+                                <p id="emailError" class="error-message" aria-live="polite"></p>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-12 gap-4">
+                            <div class="col-span-12 md:col-span-6">
+                                <label for="telephone" class="block text-sm font-medium mb-1">Votre téléphone</label>
+                                <input type="tel" id="telephone" name="telephone" placeholder="ex. 0612345678"
+                                    aria-describedby="telephoneError"
+                                    class="w-full bg-zinc-800 rounded px-3 py-2 text-white placeholder-gray-400">
+                                <p id="telephoneError" class="error-message" aria-live="polite"></p>
+                            </div>
+                            <div class="col-span-12 md:col-span-6">
+
+                                <label for="dateNaissance" class="block text-sm font-medium mb-1">Votre date de
+                                    naissance</label>
+                                <input type="date" id="dateNaissance" name="dateNaissance"
+                                    aria-describedby="dateNaissanceError"
+                                    class="w-full bg-zinc-800 rounded px-3 py-2 text-white">
+                                <p id="dateNaissanceError" class="error-message" aria-live="polite"></p>
                             </div>
                         </div>
 
@@ -122,34 +152,36 @@
                             <label for="helpType" class="block text-sm font-medium mb-1">De quel type d'aide avez-vous
                                 besoin ?</label>
                             <select id="helpType" name="helpType"
-                                class="w-full bg-zinc-800 rounded px-3 py-2 text-white">
+                                class="w-full bg-zinc-800 rounded px-3 py-2 text-white"
+                                aria-describedby="helpTypeError">
                                 <option value="">Sélectionnez un type d'aide</option>
                                 <option value="Gestion de compte">Gestion de compte</option>
                                 <option value="Support technique">Support technique</option>
                                 <option value="Facturation">Facturation</option>
                             </select>
-                            <p id="helpTypeError" class="error-message"></p>
+                            <p id="helpTypeError" class="error-message" aria-live="polite"></p>
                         </div>
 
                         <div>
                             <label for="topic" class="block text-sm font-medium mb-1">Comment pouvons-nous vous aider
                                 ?</label>
-                            <select id="topic" name="topic" class="w-full bg-zinc-800 rounded px-3 py-2 text-white">
+                            <select id="topic" name="topic" class="w-full bg-zinc-800 rounded px-3 py-2 text-white"
+                                aria-describedby="topicError">
                                 <option value="">Sélectionnez un sujet</option>
                                 <option value="Demande générale">Demande générale</option>
                                 <option value="Signalement de bug">Signalement de bug</option>
                                 <option value="Demande de fonctionnalité">Demande de fonctionnalité</option>
                             </select>
-                            <p id="topicError" class="error-message"></p>
+                            <p id="topicError" class="error-message" aria-live="polite"></p>
                         </div>
 
                         <div>
                             <label for="message" class="block text-sm font-medium mb-1">Dites-nous comment nous pouvons
                                 vous aider</label>
-                            <textarea id="message" name="message" rows="4"
+                            <textarea id="message" name="message" rows="4" aria-describedby="messageError"
                                 class="w-full bg-zinc-800 rounded px-3 py-2 text-white placeholder-gray-400"
-                                placeholder="Nous devrons confirmer que nous parlons bien au propriétaire du compte avant d'effectuer des modifications"></textarea>
-                            <p id="messageError" class="error-message"></p>
+                                placeholder="Expliquez votre problème ou demande"></textarea>
+                            <p id="messageError" class="error-message" aria-live="polite"></p>
                             <p class="text-sm text-gray-400 mt-1">Vous pouvez également gérer votre compte depuis le
                                 Tableau de bord</p>
                         </div>
@@ -161,7 +193,7 @@
 
                         <div class="flex items-center justify-between">
                             <button type="submit"
-                                class="bg-blue-600  text-white font-bold py-2 px-4 rounded hover:bg-green-500">Envoyer</button>
+                                class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-green-500">Envoyer</button>
                             <p class="text-sm text-gray-400">Nous répondons sous 72 heures.</p>
                         </div>
                     </form>
@@ -173,24 +205,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="section-3/3" class="container mx-auto py-12 px-4">
-            <!-- Grid Container -->
-            <img src="./img/editors.webp" alt="">
-        </div>
+        <section id="section-3" class="container mx-auto py-12 px-4">
+            <img src="./img/editors.webp" alt="Présentation des éditeurs de code disponibles">
+        </section>
 
-        <!-- Join Our Community Section -->
         <div class="text-center mt-12">
-            <h2 class="text-3xl font-semibold ">Joignez-vous à notre communauté.</h2>
+            <h2 class="text-3xl font-semibold">Joignez-vous à notre communauté.</h2>
             <div class="flex justify-center mt-4 space-x-4">
-                <a href="#" class="text-blue-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm4.293 7.293a1 1 0 011.414 1.414L11 15.414l-4.293-4.293a1 1 0 111.414-1.414L11 12.586l5.293-5.293z" />
-                    </svg>
-                </a>
-                <a href="#" class="text-blue-500">
+                <a href="#" class="text-blue-500" aria-label="Accéder à notre communauté">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
                         <path
                             d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm4.293 7.293a1 1 0 011.414 1.414L11 15.414l-4.293-4.293a1 1 0 111.414-1.414L11 12.586l5.293-5.293z" />
@@ -198,116 +222,135 @@
                 </a>
             </div>
         </div>
-        </div>
-
-        <script>
-            document.getElementById('supportForm').addEventListener('submit', function (e) {
-                e.preventDefault();
-
-                let isValid = true;
-
-                const nameField = document.getElementById('name');
-                const emailField = document.getElementById('email');
-                const helpTypeField = document.getElementById('helpType');
-                const topicField = document.getElementById('topic');
-                const messageField = document.getElementById('message');
-
-                const nameError = document.getElementById('nameError');
-                const emailError = document.getElementById('emailError');
-                const helpTypeError = document.getElementById('helpTypeError');
-                const topicError = document.getElementById('topicError');
-                const messageError = document.getElementById('messageError');
-
-                nameError.textContent = '';
-                emailError.textContent = '';
-                helpTypeError.textContent = '';
-                topicError.textContent = '';
-                messageError.textContent = '';
-
-                nameField.classList.remove('input-error');
-                emailField.classList.remove('input-error');
-                helpTypeField.classList.remove('input-error');
-                topicField.classList.remove('input-error');
-                messageField.classList.remove('input-error');
-
-                let name = nameField.value.trim();
-                let email = emailField.value.trim();
-                let helpType = helpTypeField.value.trim();
-                let topic = topicField.value.trim();
-                let message = messageField.value.trim();
-
-                if (name === '') {
-                    nameError.textContent = 'Veuillez entrer votre nom';
-                    nameField.classList.add('input-error');
-                    isValid = false;
-                }
-
-                if (email === '') {
-                    emailError.textContent = 'Veuillez entrer votre email';
-                    emailField.classList.add('input-error');
-                    isValid = false;
-                } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-                    emailError.textContent = 'Veuillez entrer une adresse email valide';
-                    emailField.classList.add('input-error');
-                    isValid = false;
-                }
-
-                if (helpType === '') {
-                    helpTypeError.textContent = 'Veuillez sélectionner un type d\'aide';
-                    helpTypeField.classList.add('input-error');
-                    isValid = false;
-                }
-
-                if (topic === '') {
-                    topicError.textContent = 'Veuillez sélectionner un sujet';
-                    topicField.classList.add('input-error');
-                    isValid = false;
-                }
-
-                if (message === '') {
-                    messageError.textContent = 'Veuillez entrer un message';
-                    messageField.classList.add('input-error');
-                    isValid = false;
-                }
-
-                if (isValid) {
-
-                    document.getElementById('supportForm').style.display = 'none';
-                    document.getElementById('successMessage').classList.remove('hidden');
-                }
-            });
-
-            // Real-time validation
-            const fields = [
-                { field: document.getElementById('name'), error: document.getElementById('nameError'), validation: (value) => value.trim() !== '' },
-                { field: document.getElementById('email'), error: document.getElementById('emailError'), validation: (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim()) },
-                { field: document.getElementById('helpType'), error: document.getElementById('helpTypeError'), validation: (value) => value.trim() !== '' },
-                { field: document.getElementById('topic'), error: document.getElementById('topicError'), validation: (value) => value.trim() !== '' },
-                { field: document.getElementById('message'), error: document.getElementById('messageError'), validation: (value) => value.trim() !== '' }
-            ];
-
-            fields.forEach(({ field, error, validation }) => {
-                field.addEventListener('input', () => {
-                    if (validation(field.value)) {
-                        error.textContent = '';
-                        field.classList.remove('input-error');
-                    }
-                });
-            });
-        </script>
     </main>
-    </div>
-    </main>
+
     <footer class="flex justify-center text-center p-10">
-
-
-
         <p>Copyright © - All right reserved by Steve ZAFIMAHITA</p>
-
-
-
     </footer>
 
+    <script>
+        document.getElementById('supportForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            let isValid = true;
+
+            const nameField = document.getElementById('name');
+            const emailField = document.getElementById('email');
+            const telephoneField = document.getElementById('telephone');
+            const dateNaissanceField = document.getElementById('dateNaissance');
+            const helpTypeField = document.getElementById('helpType');
+            const topicField = document.getElementById('topic');
+            const messageField = document.getElementById('message');
+
+            const nameError = document.getElementById('nameError');
+            const emailError = document.getElementById('emailError');
+            const telephoneError = document.getElementById('telephoneError');
+            const dateNaissanceError = document.getElementById('dateNaissanceError');
+            const helpTypeError = document.getElementById('helpTypeError');
+            const topicError = document.getElementById('topicError');
+            const messageError = document.getElementById('messageError');
+
+            nameError.textContent = '';
+            emailError.textContent = '';
+            telephoneError.textContent = '';
+            dateNaissanceError.textContent = '';
+            helpTypeError.textContent = '';
+            topicError.textContent = '';
+            messageError.textContent = '';
+
+            nameField.classList.remove('input-error');
+            emailField.classList.remove('input-error');
+            telephoneField.classList.remove('input-error');
+            dateNaissanceField.classList.remove('input-error');
+            helpTypeField.classList.remove('input-error');
+            topicField.classList.remove('input-error');
+            messageField.classList.remove('input-error');
+
+            let name = nameField.value.trim();
+            let email = emailField.value.trim();
+            let telephone = telephoneField.value.trim();
+            let dateNaissance = dateNaissanceField.value.trim();
+            let helpType = helpTypeField.value.trim();
+            let topic = topicField.value.trim();
+            let message = messageField.value.trim();
+
+            if (name === '') {
+                nameError.textContent = 'Veuillez entrer votre nom';
+                nameField.classList.add('input-error');
+                isValid = false;
+            }
+
+            if (email === '') {
+                emailError.textContent = 'Veuillez entrer votre email';
+                emailField.classList.add('input-error');
+                isValid = false;
+            } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                emailError.textContent = 'Veuillez entrer une adresse email valide';
+                emailField.classList.add('input-error');
+                isValid = false;
+            }
+
+
+            if (telephone === '') {
+                telephoneError.textContent = 'Veuillez entrer votre numéro de téléphone';
+                telephoneField.classList.add('input-error');
+                isValid = false;
+            } else if (!/^\d{10}$/.test(telephone)) {
+                telephoneError.textContent = 'Veuillez entrer un numéro de téléphone valide (10 chiffres)';
+                telephoneField.classList.add('input-error');
+                isValid = false;
+            }
+
+
+            if (dateNaissance === '') {
+                dateNaissanceError.textContent = 'Veuillez entrer votre date de naissance';
+                dateNaissanceField.classList.add('input-error');
+                isValid = false;
+            }
+
+            if (helpType === '') {
+                helpTypeError.textContent = 'Veuillez sélectionner un type d\'aide';
+                helpTypeField.classList.add('input-error');
+                isValid = false;
+            }
+
+            if (topic === '') {
+                topicError.textContent = 'Veuillez sélectionner un sujet';
+                topicField.classList.add('input-error');
+                isValid = false;
+            }
+
+            if (message === '') {
+                messageError.textContent = 'Veuillez entrer un message';
+                messageField.classList.add('input-error');
+                isValid = false;
+            }
+
+            if (isValid) {
+                document.getElementById('supportForm').style.display = 'none';
+                document.getElementById('successMessage').classList.remove('hidden');
+            }
+        });
+
+        // Validation en temps réel
+        const fields = [
+            { field: document.getElementById('name'), error: document.getElementById('nameError'), validation: (value) => value.trim() !== '' },
+            { field: document.getElementById('email'), error: document.getElementById('emailError'), validation: (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim()) },
+            { field: document.getElementById('telephone'), error: document.getElementById('telephoneError'), validation: (value) => /^\d{10}$/.test(value.trim()) },
+            { field: document.getElementById('dateNaissance'), error: document.getElementById('dateNaissanceError'), validation: (value) => value.trim() !== '' },
+            { field: document.getElementById('helpType'), error: document.getElementById('helpTypeError'), validation: (value) => value.trim() !== '' },
+            { field: document.getElementById('topic'), error: document.getElementById('topicError'), validation: (value) => value.trim() !== '' },
+            { field: document.getElementById('message'), error: document.getElementById('messageError'), validation: (value) => value.trim() !== '' }
+        ];
+
+        fields.forEach(({ field, error, validation }) => {
+            field.addEventListener('input', () => {
+                if (validation(field.value)) {
+                    error.textContent = '';
+                    field.classList.remove('input-error');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
