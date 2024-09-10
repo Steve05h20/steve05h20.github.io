@@ -48,9 +48,10 @@
     "screenshots": [
         {
             "src": "./img/CaptureDecran.png",
-            "sizes": "2234x2066",
+            "sizes": "1280x800",
             "type": "image/png",
-            "description": "A screenshot of the home page"
+            "description": "A screenshot of the home page",
+            "form_factor": "wide"
         }
     ],
     "related_applications": [
@@ -62,9 +63,16 @@
     "prefer_related_applications": false,
     "shortcuts": [
         {
-            "name": "Open Dashboard",
-            "url": "/dashboard",
-            "description": "Go to the main dashboard"
+            "name": "Web|design+code",
+            "short_name": "Web Design",
+            "description": "A web application for web design and coding.",
+            "icons": [
+                {
+                    "src": "./img/icon_96.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
         }
     ]
 }
