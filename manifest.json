@@ -69,7 +69,7 @@
             "url": "url-du-raccourci",
             "icons": [
                 {
-                    "src": "icon-96x96.png",
+                    "src": "./img/icon_96.png",
                     "sizes": "96x96",
                     "type": "image/png"
                 }
