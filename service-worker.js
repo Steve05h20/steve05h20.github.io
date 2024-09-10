@@ -1,12 +1,13 @@
-const CACHE_NAME = 'static-cache-v3';
+const CACHE_NAME = 'static-cache-v5';
 const FILES_TO_CACHE = [
     './index.html',
     './support.html',
     './tarif.html',
     './css/styles.css',
     './js/main.js',
-    './assets/icons/icon_192.png',
-    './assets/icons/icon_512.png',
+    './img/icon_192.png',
+    './img/icon_512.png',
+    './img/icon_144.png'
 ];
 
 self.addEventListener('install', (evt) => {
