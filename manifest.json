@@ -37,12 +37,18 @@
             "sizes": "144x144",
             "type": "image/png",
             "purpose": "maskable"
+        },
+        {
+            "src": "./img/icon_96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ],
     "screenshots": [
         {
             "src": "./img/CaptureDecran.png",
-            "sizes": "2880x1800",
+            "sizes": "2234x2066",
             "type": "image/png",
             "description": "A screenshot of the home page"
         }
