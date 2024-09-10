@@ -66,9 +66,10 @@
             "name": "Web|design+code",
             "short_name": "Web Design",
             "description": "A web application for web design and coding.",
+            "url": "url-du-raccourci",
             "icons": [
                 {
-                    "src": "./img/icon_96.png",
+                    "src": "icon-96x96.png",
                     "sizes": "96x96",
                     "type": "image/png"
                 }
