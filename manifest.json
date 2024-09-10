@@ -52,6 +52,13 @@
             "type": "image/png",
             "description": "A screenshot of the home page",
             "form_factor": "wide"
+        },
+        {
+            "src": "./img/CaptureDecran.png",
+            "sizes": "1280x800",
+            "type": "image/png",
+            "description": "A screenshot of the home page",
+            "form_factor": "narrow"
         }
     ],
     "related_applications": [
